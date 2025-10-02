@@ -23,7 +23,7 @@ int main() {
     int compteur = 5;
     int i = 1;
     
-    while (i <= compteur) {
+    while (i >= compteur) {
         int j = 1;
         while (j <= i) {
             if (j == 1 || j == i || i == compteur) {
@@ -39,3 +39,4 @@ int main() {
     
     return 0;
 }
+
