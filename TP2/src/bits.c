@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int d = 0x88000000;
+    int d = 0x88001000;
     int resultat = 0;
     int taille = sizeof(int) * 8;
     int pos_bit4 = taille - 4;
@@ -16,4 +16,5 @@ int main() {
     printf("%d\n", resultat);
     return 0;
 }
+
 
